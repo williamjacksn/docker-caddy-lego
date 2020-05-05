@@ -1,4 +1,4 @@
-FROM caddy:2.0.0-builder
+FROM caddy:2.0.0-builder AS builder
 
 RUN caddy-builder github.com/caddy-dns/lego-deprecated
 
