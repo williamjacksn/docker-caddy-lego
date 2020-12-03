@@ -1,6 +1,5 @@
-version: '3.7'
+version: '3.8'
 
 services:
   caddy-lego:
-    image: docker.pkg.github.com/williamjacksn/docker-caddy-lego/caddy-lego
-    build: .
+    image: ghcr.io/williamjacksn/caddy-lego
