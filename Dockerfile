@@ -1,7 +1,7 @@
-FROM caddy:2.2.1-builder AS builder
+FROM caddy:2.3.0-builder AS builder
 
 RUN xcaddy build --with github.com/caddy-dns/lego-deprecated
 
-FROM caddy:2.2.1
+FROM caddy:2.3.0-builder
 
 COPY --from=builder /usr/bin/caddy /usr/bin/caddy
