@@ -1,6 +1,7 @@
 FROM caddy:2.5.2-builder AS builder
 
-RUN xcaddy build --with github.com/caddy-dns/lego-deprecated
+RUN xcaddy build v2.5.2 \
+    --with github.com/caddy-dns/lego-deprecated
 
 FROM caddy:2.5.2
 

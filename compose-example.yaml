@@ -1,0 +1,12 @@
+# Example usage
+
+services:
+  caddy:
+    image: ghcr.io/williamjacksn/caddy-lego
+    volumes:
+      - ./volumes/config:/config
+      - ./volumes/data:/data
+      - ./volumes/etc/caddy:/etc/caddy
+    ports:
+      - 80:80
+      - 443:443

@@ -1,0 +1,13 @@
+# Example usage
+# See https://github.com/caddy-dns/lego-deprecated for more details
+
+example.com {
+ log {
+  output stdout
+  format console
+ }
+ reverse_proxy <upstream-server>
+ tls <email@example.com> {
+  dns lego_deprecated <provider_code>
+ }
+}

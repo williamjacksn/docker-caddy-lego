@@ -1,5 +1,0 @@
-version: '3.8'
-
-services:
-  caddy-lego:
-    image: ghcr.io/williamjacksn/caddy-lego
