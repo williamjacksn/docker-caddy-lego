@@ -213,8 +213,8 @@ github.com/caarlos0/ctrlc v1.0.0/go.mod h1:CdXpj4rmq0q/1Eb44M9zi2nKB0QraNKuRGYGr
 github.com/caddy-dns/lego-deprecated v0.0.0-20220713031535-f39cc2af7e85 h1:fXim2IxvTiZ3zJgRgSYY31NpzCGBFwh++p2fL1sDLns=
 github.com/caddy-dns/lego-deprecated v0.0.0-20220713031535-f39cc2af7e85/go.mod h1:22aRQ/sKf3MyDQUwq9kZwb8ZIZK2wNDl5kDM2okQnf0=
 github.com/caddyserver/caddy/v2 v2.5.2/go.mod h1:/PytcgdNvIxIe1Vner+eq6jf2yCq2sZeG9tGSwYmdiE=
-github.com/caddyserver/caddy/v2 v2.6.0 h1:lHDynvM+sTOi9Aq4Y15b4FtkqzPB36WbUrZvVdwzTCA=
-github.com/caddyserver/caddy/v2 v2.6.0/go.mod h1:YFaWZkg/wx3xW8mCF1Ydazk8dWbBBu/tx7IagU+E9io=
+github.com/caddyserver/caddy/v2 v2.6.1 h1:EDqo59TyYWhXQnfde93Mmv4FJfYe00dO60zMiEt+pzo=
+github.com/caddyserver/caddy/v2 v2.6.1/go.mod h1:YFaWZkg/wx3xW8mCF1Ydazk8dWbBBu/tx7IagU+E9io=
 github.com/caddyserver/certmagic v0.16.1/go.mod h1:jKQ5n+ViHAr6DbPwEGLTSM2vDwTO6EvCKBblBRUvvuQ=
 github.com/caddyserver/certmagic v0.17.1 h1:VrWANhQAj3brK7jAUKyN6XBHg56WsyorI/84Ilq1tCQ=
 github.com/caddyserver/certmagic v0.17.1/go.mod h1:pSS2aZcdKlrTZrb2DKuRafckx20o5Fz1EdDKEB8KOQM=

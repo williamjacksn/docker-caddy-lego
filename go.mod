@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/caddy-dns/lego-deprecated v0.0.0-20220713031535-f39cc2af7e85
-	github.com/caddyserver/caddy/v2 v2.6.0
+	github.com/caddyserver/caddy/v2 v2.6.1
 )
 
 require (
