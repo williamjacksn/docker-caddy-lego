@@ -35,6 +35,9 @@ jobs:
           cache-from: |
             ${{ env.image_name }}
           load: true
+          platforms: |
+            linux/amd64
+            linux/arm64
           tags: ${{ env.image_name }}
 
       - name: Log in to GitHub container registry
