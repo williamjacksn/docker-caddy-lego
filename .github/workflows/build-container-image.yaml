@@ -32,10 +32,6 @@ jobs:
         if: github.event_name == 'pull_request'
         uses: docker/build-push-action@v4
         with:
-          build-args: |
-            BUILDKIT_INLINE_CACHE=1
-          cache-from: |
-            ${{ env.image_name }}
           platforms: ${{ env.platforms }}
 
       - name: Log in to GitHub container registry
@@ -50,10 +46,6 @@ jobs:
         if: github.event_name == 'push'
         uses: docker/build-push-action@v4
         with:
-          build-args: |
-            BUILDKIT_INLINE_CACHE=1
-          cache-from: |
-            ${{ env.image_name }}
           platforms: ${{ env.platforms }}
           push: true
           tags: ${{ env.image_name }}:latest
@@ -62,10 +54,6 @@ jobs:
         if: github.event_name == 'release'
         uses: docker/build-push-action@v4
         with:
-          build-args: |
-            BUILDKIT_INLINE_CACHE=1
-          cache-from: |
-            ${{ env.image_name }}
           platforms: ${{ env.platforms }}
           push: true
           tags: ${{ env.image_name }}:${{ github.event.release.tag_name }}
