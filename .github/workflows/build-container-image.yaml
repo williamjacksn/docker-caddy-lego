@@ -34,7 +34,6 @@ jobs:
             BUILDKIT_INLINE_CACHE=1
           cache-from: |
             ${{ env.image_name }}
-          load: true
           platforms: |
             linux/amd64
             linux/arm64
