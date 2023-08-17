@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/caddy-dns/lego-deprecated v0.0.0-20221129224906-9187923c0cf9
-	github.com/caddyserver/caddy/v2 v2.7.3
+	github.com/caddyserver/caddy/v2 v2.7.4
 )
 
 require (
@@ -28,7 +28,7 @@ require (
 	github.com/aws/aws-sdk-go v1.44.122 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/boombuler/barcode v1.0.1 // indirect
-	github.com/caddyserver/certmagic v0.19.1 // indirect
+	github.com/caddyserver/certmagic v0.19.2 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/civo/civogo v0.3.15 // indirect
@@ -106,7 +106,7 @@ require (
 	github.com/prometheus/procfs v0.8.0 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/qtls-go1-20 v0.3.1 // indirect
-	github.com/quic-go/quic-go v0.37.3 // indirect
+	github.com/quic-go/quic-go v0.37.5 // indirect
 	github.com/sacloud/api-client-go v0.2.3 // indirect
 	github.com/sacloud/go-http v0.1.3 // indirect
 	github.com/sacloud/iaas-api-go v1.6.0 // indirect
@@ -131,14 +131,14 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/ratelimit v0.2.0 // indirect
 	go.uber.org/zap v1.25.0 // indirect
-	golang.org/x/crypto v0.11.0 // indirect
+	golang.org/x/crypto v0.12.0 // indirect
 	golang.org/x/exp v0.0.0-20230310171629-522b1b587ee0 // indirect
 	golang.org/x/mod v0.11.0 // indirect
-	golang.org/x/net v0.12.0 // indirect
+	golang.org/x/net v0.14.0 // indirect
 	golang.org/x/oauth2 v0.8.0 // indirect
-	golang.org/x/sys v0.10.0 // indirect
-	golang.org/x/term v0.10.0 // indirect
-	golang.org/x/text v0.11.0 // indirect
+	golang.org/x/sys v0.11.0 // indirect
+	golang.org/x/term v0.11.0 // indirect
+	golang.org/x/text v0.12.0 // indirect
 	golang.org/x/time v0.1.0 // indirect
 	golang.org/x/tools v0.10.0 // indirect
 	google.golang.org/api v0.126.0 // indirect
