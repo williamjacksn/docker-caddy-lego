@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/caddy-dns/lego-deprecated v0.0.0-20221129224906-9187923c0cf9
-	github.com/caddyserver/caddy/v2 v2.7.5
+	github.com/caddyserver/caddy/v2 v2.7.6
 )
 
 require (
@@ -28,7 +28,7 @@ require (
 	github.com/aws/aws-sdk-go v1.44.122 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/boombuler/barcode v1.0.1 // indirect
-	github.com/caddyserver/certmagic v0.19.2 // indirect
+	github.com/caddyserver/certmagic v0.20.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/civo/civogo v0.3.15 // indirect
@@ -104,8 +104,8 @@ require (
 	github.com/prometheus/common v0.42.0 // indirect
 	github.com/prometheus/procfs v0.9.0 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
-	github.com/quic-go/qtls-go1-20 v0.3.4 // indirect
-	github.com/quic-go/quic-go v0.39.0 // indirect
+	github.com/quic-go/qtls-go1-20 v0.4.1 // indirect
+	github.com/quic-go/quic-go v0.40.0 // indirect
 	github.com/sacloud/api-client-go v0.2.3 // indirect
 	github.com/sacloud/go-http v0.1.3 // indirect
 	github.com/sacloud/iaas-api-go v1.6.0 // indirect
@@ -135,18 +135,18 @@ require (
 	golang.org/x/exp v0.0.0-20230310171629-522b1b587ee0 // indirect
 	golang.org/x/mod v0.11.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
-	golang.org/x/oauth2 v0.10.0 // indirect
-	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/oauth2 v0.11.0 // indirect
+	golang.org/x/sys v0.14.0 // indirect
 	golang.org/x/term v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/time v0.1.0 // indirect
 	golang.org/x/tools v0.10.0 // indirect
 	google.golang.org/api v0.126.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20230913181813-007df8e322eb // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20230803162519-f966b187b2e5 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20230920204549-e6e6cdab5c13 // indirect
-	google.golang.org/grpc v1.58.3 // indirect
+	google.golang.org/genproto v0.0.0-20231012201019-e917dd12ba7a // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20231016165738-49dd2c1f3d0b // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20231016165738-49dd2c1f3d0b // indirect
+	google.golang.org/grpc v1.59.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/ns1/ns1-go.v2 v2.6.5 // indirect
