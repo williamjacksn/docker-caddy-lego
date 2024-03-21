@@ -1,6 +1,6 @@
 module github.com/williamjacksn/docker-caddy-lego
 
-go 1.19
+go 1.22
 
 require (
 	github.com/caddy-dns/lego-deprecated v0.0.0-20221129224906-9187923c0cf9
