@@ -105,7 +105,7 @@ require (
 	github.com/prometheus/procfs v0.9.0 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/qtls-go1-20 v0.4.1 // indirect
-	github.com/quic-go/quic-go v0.40.0 // indirect
+	github.com/quic-go/quic-go v0.42.0 // indirect
 	github.com/sacloud/api-client-go v0.2.3 // indirect
 	github.com/sacloud/go-http v0.1.3 // indirect
 	github.com/sacloud/iaas-api-go v1.6.0 // indirect
@@ -127,7 +127,7 @@ require (
 	github.com/yandex-cloud/go-sdk v0.0.0-20221017092620-5a98ccb7544c // indirect
 	github.com/zeebo/blake3 v0.2.3 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	go.uber.org/mock v0.3.0 // indirect
+	go.uber.org/mock v0.4.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/ratelimit v0.2.0 // indirect
 	go.uber.org/zap v1.25.0 // indirect
@@ -139,7 +139,7 @@ require (
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/term v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/time v0.1.0 // indirect
+	golang.org/x/time v0.5.0 // indirect
 	golang.org/x/tools v0.10.0 // indirect
 	google.golang.org/api v0.126.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
