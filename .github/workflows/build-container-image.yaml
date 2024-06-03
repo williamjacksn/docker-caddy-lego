@@ -34,19 +34,23 @@ jobs:
         if: github.event_name == 'push' || github.event_name == 'release'
         uses: docker/login-action@v3
         with:
-          registry: ghcr.io
           password: ${{ github.token }}
+          registry: ghcr.io
           username: ${{ github.actor }}
 
       - name: Build the container image
         uses: docker/build-push-action@v5
         with:
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
           platforms: ${{ env.platforms }}
+          tags: ${{ env.image_name }}:latest
 
       - name: Build and push latest image to registry
         if: github.event_name == 'push'
         uses: docker/build-push-action@v5
         with:
+          cache-from: type=gha
           platforms: ${{ env.platforms }}
           push: true
           tags: ${{ env.image_name }}:latest
@@ -55,6 +59,9 @@ jobs:
         if: github.event_name == 'release'
         uses: docker/build-push-action@v5
         with:
+          cache-from: type=gha
           platforms: ${{ env.platforms }}
           push: true
-          tags: ${{ env.image_name }}:latest,${{ env.image_name }}:${{ github.event.release.tag_name }}
+          tags: |
+            ${{ env.image_name }}:latest
+            ${{ env.image_name }}:${{ github.event.release.tag_name }}
