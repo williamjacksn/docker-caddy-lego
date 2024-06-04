@@ -46,7 +46,7 @@ jobs:
           platforms: ${{ env.platforms }}
           tags: ${{ env.image_name }}:latest
 
-      - name: Build and push latest image to registry
+      - name: Push the latest image to the registry
         if: github.event_name == 'push'
         uses: docker/build-push-action@v5
         with:
@@ -55,7 +55,7 @@ jobs:
           push: true
           tags: ${{ env.image_name }}:latest
 
-      - name: Build and push release image to registry
+      - name: Push the release image to the registry
         if: github.event_name == 'release'
         uses: docker/build-push-action@v5
         with:
