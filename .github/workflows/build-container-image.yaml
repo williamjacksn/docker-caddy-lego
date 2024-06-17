@@ -39,7 +39,7 @@ jobs:
           username: ${{ github.actor }}
 
       - name: Build the container image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           cache-from: type=gha
           cache-to: type=gha,mode=max
@@ -48,7 +48,7 @@ jobs:
 
       - name: Push the latest image to the registry
         if: github.event_name == 'push'
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           cache-from: type=gha
           platforms: ${{ env.platforms }}
@@ -57,7 +57,7 @@ jobs:
 
       - name: Push the release image to the registry
         if: github.event_name == 'release'
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           cache-from: type=gha
           platforms: ${{ env.platforms }}
