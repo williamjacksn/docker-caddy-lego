@@ -1,6 +1,6 @@
 module github.com/williamjacksn/docker-caddy-lego
 
-go 1.25
+go 1.25.0
 
 require (
 	github.com/caddy-dns/lego-deprecated v0.0.0-20221129224906-9187923c0cf9
@@ -31,7 +31,7 @@ require (
 	github.com/boombuler/barcode v1.0.1 // indirect
 	github.com/caddyserver/certmagic v0.24.0 // indirect
 	github.com/caddyserver/zerossl v0.1.3 // indirect
-	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
+	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/civo/civogo v0.3.15 // indirect
 	github.com/cloudflare/cloudflare-go v0.52.0 // indirect
@@ -95,7 +95,6 @@ require (
 	github.com/nrdcg/goinwx v0.8.1 // indirect
 	github.com/nrdcg/namesilo v0.2.1 // indirect
 	github.com/nrdcg/porkbun v0.1.1 // indirect
-	github.com/onsi/gomega v1.29.0 // indirect
 	github.com/oracle/oci-go-sdk v24.3.0+incompatible // indirect
 	github.com/ovh/go-ovh v1.3.0 // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
